@@ -19,7 +19,10 @@ fun max(i:Int, j:Int):Int= if(i<j) j else i
 //default argument
 fun def(a:Int, b:Int=20):Int=a*b
 
-
+fun nameed(a:Int, b:Int)
+{
+    println("a:$a\nb:$b")
+}
 fun main() 
 {
     println(add(1,2))
@@ -27,5 +30,7 @@ fun main()
     println(max(9,8))
     println(def(1))
     println(def(2,3))
+    // named parameter
+    println(nameed(b=78,a=45))
 
 }

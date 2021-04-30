@@ -1,0 +1,3 @@
+youtube : https://youtube.com/playlist?list=PLsyeobzWxl7rooJFZhc3qPLwVROovGCfh
+github  : https://github.com/navinreddy20/kotlin
+website : https://kotlinlang.org/docs/home.html

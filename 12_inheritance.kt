@@ -50,4 +50,8 @@ fun main()
     biobj.sleep()   // it call parent method
     biobj.fly()     // it call it's method
 
+    var obj1:living = human() // object of human and reference of living
+    obj1.eat()
+    //obj1.think()            // it is error because it is reference of living
+
 }

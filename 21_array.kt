@@ -26,6 +26,13 @@ fun  main()
     for (i in b)
     println(i)
 
+    var c = Array<Int>(5){0} //0:0,1:0,2:0,3:0,4:0 //it is mtable the values can changed
+    c.forEach { i -> println(i)}
+
+    var d = Array<Int>(5){ i -> i}
+    d.forEach { i -> println(i)}
+
+
     
 
     
